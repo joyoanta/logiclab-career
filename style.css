@@ -137,9 +137,10 @@ footer{
 .low-part{
 
     margin-top: 30px;
+    
 }
 
-.row ul {
+.low-part ul {
 
     list-style-type: none;
     margin-bottom: 40px;
