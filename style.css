@@ -146,3 +146,16 @@ footer{
     margin-bottom: 40px;
     line-height: 30px;
 }
+
+.btn-primary{
+
+    width: 133.81px;
+}
+
+.btn-primary:hover{
+
+    width: 150px;
+    transition: width 2s;
+    transition-timing-function: ease-in-out;
+    
+}
