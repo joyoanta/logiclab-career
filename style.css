@@ -1,0 +1,147 @@
+body{
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.view{
+
+    background-image: url("images/blank.jpg");
+    height: 520px;
+    background-position: center;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.headline{
+    width: 50%;
+    padding-top: 175px;
+    padding-left: 20px;
+    
+}
+
+.headline-glow{
+
+    position: relative;
+    animation-name: highlights;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    
+}
+
+
+@keyframes highlights {
+    0% {left:0px; top:0px;}
+    50% {background-color:rgba(119, 184, 245, 0.63); left:40px; top:0px;}
+    75% {background-color:rgba(119, 184, 245, 0.63); left:20px; top:0px;}
+    90% {background-color: rgba(119, 184, 245, 0.63); left:10px; top:0px;}
+    100% {background-color: rgba(201, 222, 246, 0); left:0px; top:0px;}
+  }
+
+
+
+.job-section{
+
+    margin: 40px 20px 20px 20px;
+    align-items: center;
+}
+
+.card{
+
+    border: none;
+    box-shadow: 3px 3px 15px gray;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+    margin-bottom: 10px;
+   
+}
+
+
+.company-overview{
+
+    margin-top: 40px;
+    margin-bottom: 30px;
+    background-image: url("images/cyan-bg.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 150px; 
+    
+    
+}
+
+h4{
+
+    margin-left: 25px;
+
+}
+
+.about-us img{
+
+    width: 100%;
+   
+}
+
+.about-us img:hover{
+
+    transform: rotate(5deg);
+    transition: transform 2s ease-in-out;
+    
+}
+
+.company-details{
+
+    padding-top: 60px;
+    padding-right: 20px;
+    text-align: justify;
+    background-color: white;
+
+}
+
+.team{
+
+    
+    background-image: url("images/cyan-bg.png");
+    
+    
+}
+
+.team img{
+
+    box-shadow: 1px 1px 10px gray;
+    
+}
+
+.team img:hover{
+
+    transform: rotate(-5deg);
+    transition: transform 2s ease-in-out;    
+}
+
+footer{
+
+    margin-top: 50px;
+    background:whitesmoke;
+    background-image: url("images/cyan-bg.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 140px;
+    color: black;
+  
+}
+
+
+.low-part{
+
+    margin-top: 30px;
+}
+
+.row ul {
+
+    list-style-type: none;
+    margin-bottom: 40px;
+    line-height: 30px;
+}
